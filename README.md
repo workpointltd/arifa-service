@@ -1,0 +1,2 @@
+# arifa-service
+Notification service
