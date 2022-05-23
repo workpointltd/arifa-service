@@ -1,0 +1,22 @@
+
+rolengi:
+  sms:
+    from: Rolengi
+
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  mail:
+    host: mail.rolengi.com
+    port: 465
+    username: system-alerts@test.com
+    password: 7887646
+    properties:
+      "mail.transport.protocol": smtp
+      "mail.smtp.auth": true
+      "mail.smtp.starttls.enable": true
+      "mail.smtp.ssl.enable": true
+    protocol: smtp
+logging:
+  level:
+    root: debug
